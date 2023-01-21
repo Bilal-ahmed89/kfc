@@ -1,10 +1,11 @@
 
+
+
 import Header from "../Header/Header";
-import Slider from "../Slider/Slider"
+import Slider from "../Slider/Slider";
 import Section from "../section/Section";
 import { categories } from "../data/data";
 import { sectionContent } from "../data/data";
-
 
 
 function Main() {
@@ -12,7 +13,6 @@ function Main() {
         <div>
             <Header />
             <Slider />
-
             {
                 sectionContent.map((sectionContent) => {
                     return (
