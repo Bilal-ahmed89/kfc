@@ -1,15 +1,11 @@
-import Header from "./components/Header/Header";
-import Slider from "./components/Slider/Slider";
-import Section from "./components/section/Section";
+import Main from "./Main/Main";
 
 
 
 function App() {
   return (
     <div>  
-    <Header />
-    <Slider />
-    <Section />
+    <Main />
    </div> 
   );
 }
