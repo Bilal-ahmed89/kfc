@@ -1,8 +1,9 @@
-import Header from "../components/Header/Header"
-import Slider from "../components/Slider/Slider";
-import Section from "../components/section/Section";
-import { categories } from "../components/data/data";
-import { sectionContent } from "../components/data/data";
+
+import Header from "../Header/Header";
+import Slider from "../Slider/Slider"
+import Section from "../section/Section";
+import { categories } from "../data/data";
+import { sectionContent } from "../data/data";
 
 
 
