@@ -23,7 +23,7 @@ function Header() {
                     </a>
                     <div className='btn-group' role="group" aria-label="Basic radio toggle button group">
                         <input type="radio" className='btn-check' name="btnradio" id="btnradio1" autoComplete="off" onClick={() => { setShowLocationBtn(true) }} />
-                        <label className={`btn btn-outline-primary ${styles.orderBtn}`} htmlFor="btnradio1"><span><img src={delivery} alt="" /></span> DELIVERY</label>
+                        <label className={`btn btn-outline-primary ${styles.orderBtn}`} htmlFor="btnradio1"><span><img src={delivery} alt="" checked/></span> DELIVERY</label>
 
                         <input type="radio" className='btn-check' name="btnradio" id="btnradio2" autoComplete="off" onClick={() => { setShowLocationBtn(false) }} />
                         <label className={`btn btn-outline-primary ${styles.orderBtn}`} htmlFor="btnradio2"><span><img src={pickup} alt="" style={{ width: '19px' }} /></span>PICKUP</label>
