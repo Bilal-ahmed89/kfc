@@ -23,7 +23,7 @@ export const categories = [
         id : 4,
         title : 'SHARING',
         img : './assets/imgs/sharing.jpg'
-    },
+    }
     
 ]
 
@@ -56,7 +56,7 @@ export const cardContent = [
         price : 470,
         description : 'Krunch + 1 regular Fries + 1 regular Drink',
         img : './assets/imgs/alaCrateCombo.jpg'
-    },
+    }
 
 ]
 
@@ -70,6 +70,51 @@ export const sectionContent = [
         id : 2,
         title : 'Top Selling',
         content : <Card cardContent={cardContent}/>
+    }
+
+]
+
+export const mediaLogos = [
+    {
+        id : 1,
+        img : './assets/imgs/youtube.png'
+    },
+    {
+        id : 2,
+        img : './assets/imgs/instagram.png'
+    },
+    {
+        id : 3,
+        img : './assets/imgs/facebook.png'
+    }
+
+]
+
+export const footerTags = [
+    {
+        id: 1,
+        title : 'Information',
+        li : [
+            <li><a href="">About Us</a></li>,
+            <li><a href="">Mitao Bhook</a></li>,
+            <li><a href="">Mitao Bhook - Scholarship</a></li>,
+            <li><a href="">Privacy Policy</a></li>,
+            <li><a href="">Careers</a></li>
+        ]
+    },
+    {
+        id: 1,
+        title : 'Locations',
+        li : [
+            <li><a href="">Contact Us</a></li>
+        ]
+    },
+    {
+        id: 1,
+        title : 'Get in Touch',
+        li : [
+            <li><a href="">Terms & Conditions</a></li>
+        ]
     }
 
 ]

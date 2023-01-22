@@ -1,11 +1,12 @@
 
-
-
 import Header from "../Header/Header";
 import Slider from "../Slider/Slider";
 import Section from "../section/Section";
 import { categories } from "../data/data";
 import { sectionContent } from "../data/data";
+import Footer from "../Footer/Footer";
+import { mediaLogos } from "../data/data";
+import { footerTags } from "../data/data";
 
 
 function Main() {
@@ -20,6 +21,7 @@ function Main() {
                     )
                 })
             }
+            <Footer  mediaLogos={mediaLogos} footerTags={footerTags} />
 
 
         </div>
