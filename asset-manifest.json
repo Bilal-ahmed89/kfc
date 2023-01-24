@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kfc/static/css/main.f6c2f90e.css",
+    "main.js": "/kfc/static/js/main.8a8510f1.js",
+    "static/media/slider3.png": "/kfc/static/media/slider3.6f311ee30dda3d74be65.png",
+    "static/media/logo.png": "/kfc/static/media/logo.830c994a1a81384cc939.png",
+    "static/media/slider1.jpg": "/kfc/static/media/slider1.c73f6253506cab69275f.jpg",
+    "static/media/slider2.jpg": "/kfc/static/media/slider2.862f0fa8059bc16f31a8.jpg",
+    "static/media/downloadBtn2.png": "/kfc/static/media/downloadBtn2.b492f685978230ceebcf.png",
+    "static/media/location.png": "/kfc/static/media/location.631c3f84f0d118d00b81.png",
+    "static/media/downloadBtn1.png": "/kfc/static/media/downloadBtn1.04068a6094cf57ba5067.png",
+    "static/media/krunchBurger.jpg": "/kfc/static/media/krunchBurger.c4052317116f6b0a65b2.jpg",
+    "index.html": "/kfc/index.html",
+    "main.f6c2f90e.css.map": "/kfc/static/css/main.f6c2f90e.css.map",
+    "main.8a8510f1.js.map": "/kfc/static/js/main.8a8510f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6c2f90e.css",
+    "static/js/main.8a8510f1.js"
+  ]
+}
