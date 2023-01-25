@@ -21,7 +21,7 @@ function Footer({ mediaLogos, footerTags }) {
                             {
                                 mediaLogos.map((mediaLogos => {
                                     return (
-                                        <a href={mediaLogos.link}><img src={mediaLogos.img} alt="" style={{ width: '40px', height: '40px', backgroundColor: 'white', borderRadius: '50%', marginRight: '24px', cursor: 'pointer' }} /></a>
+                                        <a href={mediaLogos.link} target='blank'><img src={mediaLogos.img} alt="" style={{ width: '40px', height: '40px', backgroundColor: 'white', borderRadius: '50%', marginRight: '24px', cursor: 'pointer' }} /></a>
 
                                     )
                                 }))

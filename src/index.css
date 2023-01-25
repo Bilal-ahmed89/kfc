@@ -10,11 +10,22 @@ body {
     font-weight: 300;
     line-height: 1.167;
 }
+::-webkit-scrollbar{
+  width: 5px;
+
+}
+::-webkit-scrollbar-thumb{
+  background-color: #48413E;
+  border-radius: 12px;
+}
 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.bg-main{
+  background-color: #1C1816;
 }
 .btn-outline-primary:hover{
   background-color:  rgb(26 26 26);

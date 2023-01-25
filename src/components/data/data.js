@@ -79,17 +79,17 @@ export const mediaLogos = [
     {
         id : 1,
         img : './assets/imgs/youtube.png',
-        link : '/https://www.youtube.com/channel/UCg4hfdWApV0Uea6aFW7PZUg'
+        link : "https://www.youtube.com/channel/UCg4hfdWApV0Uea6aFW7PZUg"
     },
     {
         id : 2,
         img : './assets/imgs/instagram.png',
-        link : 'https://www.instagram.com/kfcpakistanofficial/?hl=en'
+        link : "https://www.instagram.com/kfcpakistanofficial/?hl=en"
     },
     {
         id : 3,
         img : './assets/imgs/facebook.png',
-        link : 'https://www.facebook.com/KFCPakistan/'
+        link : "https://www.facebook.com/KFCPakistan/"
     }
 
 ]

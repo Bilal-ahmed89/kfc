@@ -54,7 +54,7 @@ function Header() {
                             You havent added any items in your bucket
                         </div>
                     </div>
-                    <button className={`${styles.registerBtn}`}>Register / Sign in</button>
+                    <Link to='/login'><button className={`${styles.registerBtn}`}>Register / Sign in</button></Link>
 
 
 
