@@ -1,5 +1,4 @@
 import styles from './Card.module.css'
-import krunchBurger from '../../assets/imgs/krunchBurger.jpg'
 
 
 

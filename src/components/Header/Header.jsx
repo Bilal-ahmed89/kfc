@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './header.module.css'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from '../../assets/imgs/logo.png'
 import delivery from '../../assets/imgs/delivery.png'
@@ -18,9 +19,9 @@ function Header() {
         <nav className={`navbar navbar-light ${styles.bgBlack}`}>
             <div className={`container  ${styles.p1}`}>
                 <div className="left-navbar">
-                    <a className="navbar-brand" href="#">
+                    <Link className="navbar-brand" to='/'>
                         <img src={logo} alt="" style={{ width: '120px' }} />
-                    </a>
+                    </Link>
                     <div className='btn-group' role="group" aria-label="Basic radio toggle button group">
                         <input type="radio" className='btn-check' name="btnradio" id="btnradio1" autoComplete="off" checked  onClick={() => { setShowLocationBtn(true) }} />
                         <label className={`btn btn-outline-primary ${styles.orderBtn}`} htmlFor="btnradio1"><span><img src={delivery} alt="" /></span> DELIVERY</label>

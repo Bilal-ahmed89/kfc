@@ -44,6 +44,12 @@ border-color: #48413E;
 .btn-primary:active:focus, .show{
   box-shadow: none;
 }
+.modal-backdrop.show {
+  opacity: .2;
+}
+.modal-backdrop {
+  background-color: #fff;
+}
 
 
 

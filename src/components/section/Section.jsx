@@ -1,5 +1,4 @@
 import styles from './Section.module.css'
-import CategoriesCard from '../CategoriesCard/CategoriesCard';
 
 
 

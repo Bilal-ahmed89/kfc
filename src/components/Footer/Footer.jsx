@@ -2,6 +2,7 @@ import styles from './Footer.module.css'
 import logo from '../../assets/imgs/logo.png'
 import downloadBtn1 from '../../assets/imgs/downloadBtn1.png'
 import downloadBtn2 from '../../assets/imgs/downloadBtn2.png'
+import { Link } from 'react-router-dom'
 
 
 function Footer({ mediaLogos, footerTags }) {
@@ -11,7 +12,7 @@ function Footer({ mediaLogos, footerTags }) {
             <div className={`container pt-5`}>
                 <div className="row">
                     <div className="col-md-6  d-flex justify-content-end border-end p-0">
-                        <img src={logo} alt="" style={{ width: '170px' }} />
+                        <Link to='/'><img src={logo} alt="" style={{ width: '170px' }} /></Link>
 
                     </div>
                     <div className="col-md-6  d-flex justify-content-start ps-4">
@@ -20,7 +21,7 @@ function Footer({ mediaLogos, footerTags }) {
                             {
                                 mediaLogos.map((mediaLogos => {
                                     return (
-                                        <img src={mediaLogos.img} alt="" style={{ width: '40px', height: '40px', backgroundColor: 'white', borderRadius: '50%', marginRight: '24px', cursor: 'pointer' }} />
+                                        <a href={mediaLogos.link}><img src={mediaLogos.img} alt="" style={{ width: '40px', height: '40px', backgroundColor: 'white', borderRadius: '50%', marginRight: '24px', cursor: 'pointer' }} /></a>
 
                                     )
                                 }))

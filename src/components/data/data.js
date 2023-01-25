@@ -1,5 +1,6 @@
 import CategoriesCard from "../CategoriesCard/CategoriesCard"
 import Card from "../Card/Card"
+import { Link } from "react-router-dom"
 
 
 
@@ -77,15 +78,18 @@ export const sectionContent = [
 export const mediaLogos = [
     {
         id : 1,
-        img : './assets/imgs/youtube.png'
+        img : './assets/imgs/youtube.png',
+        link : '/https://www.youtube.com/channel/UCg4hfdWApV0Uea6aFW7PZUg'
     },
     {
         id : 2,
-        img : './assets/imgs/instagram.png'
+        img : './assets/imgs/instagram.png',
+        link : 'https://www.instagram.com/kfcpakistanofficial/?hl=en'
     },
     {
         id : 3,
-        img : './assets/imgs/facebook.png'
+        img : './assets/imgs/facebook.png',
+        link : 'https://www.facebook.com/KFCPakistan/'
     }
 
 ]
@@ -95,25 +99,25 @@ export const footerTags = [
         id: 1,
         title : 'Information',
         li : [
-            <li><a href="">About Us</a></li>,
-            <li><a href="">Mitao Bhook</a></li>,
-            <li><a href="">Mitao Bhook - Scholarship</a></li>,
-            <li><a href="">Privacy Policy</a></li>,
-            <li><a href="">Careers</a></li>
+            <li><Link to='/'>About Us</Link></li>,
+            <li><Link to='/'>Mitao Bhook</Link></li>,
+            <li><Link to='/'>Mitao Bhook - Scholarship</Link></li>,
+            <li><Link to='/'>Privacy Policy</Link></li>,
+            <li><Link to='/'>Careers</Link></li>
         ]
     },
     {
         id: 1,
         title : 'Locations',
         li : [
-            <li><a href="">Contact Us</a></li>
+            <li><Link to='/'>Contact Us</Link></li>
         ]
     },
     {
         id: 1,
         title : 'Get in Touch',
         li : [
-            <li><a href="">Terms & Conditions</a></li>
+            <li><Link to='/'>Terms & Conditions</Link></li>
         ]
     }
 
