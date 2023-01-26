@@ -16,7 +16,7 @@ function Header() {
     const [showLocationBtn, setShowLocationBtn] = useState(true);
 
     return (
-        <nav className={`navbar navbar-light ${styles.bgBlack}`}>
+        <nav className={`navbar navbar-light sticky-top ${styles.bgBlack}`}>
             <div className={`container  ${styles.p1}`}>
                 <div className="left-navbar">
                     <Link className="navbar-brand" to='/'>

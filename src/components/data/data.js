@@ -24,6 +24,16 @@ export const categories = [
         id : 4,
         title : 'SHARING',
         img : './assets/imgs/sharing.jpg'
+    },
+    {
+        id:5,
+        title : 'MIDNIGHT',
+        img : './assets/imgs/midNight.jpg'
+    },
+    {
+        id: 6,
+        title : 'SNACKS AND BEVERAGES',
+        img : './assets/imgs/ricenspice.jpg'
     }
     
 ]
