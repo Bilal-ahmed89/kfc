@@ -22,7 +22,7 @@ function Login() {
          .max(11, 'Please Enter a Valid Phone Number' )
         }),
         onSubmit : ()=>{
-
+        console.log({values})
         }
 
         })
