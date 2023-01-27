@@ -8,7 +8,8 @@ export const categories = [
     {
         id : 1,
         title : 'EVERYDAY VALUE',
-        img : './assets/imgs/krunchBurger.jpg'
+        img : './assets/imgs/krunchBurger.jpg',
+        link : 'category/everyday-value'
     },
     {
         id : 2,
@@ -85,6 +86,14 @@ export const sectionContent = [
 
 ]
 
+export const sectionContentEveryday = [
+    {
+        id : 1,
+        title : 'Everyday Value',
+        content : <Card cardContent={cardContent}/>
+    }
+]
+
 export const mediaLogos = [
     {
         id : 1,
@@ -130,5 +139,34 @@ export const footerTags = [
             <li><Link to='/'>Terms & Conditions</Link></li>
         ]
     }
+
+]
+
+export const Tags =[
+    {
+        id : 1,
+        title : 'Everyday Value'
+    },
+    {
+        id : 2,
+        title : 'Ala carte & Combos'
+    },
+    {
+        id : 3 ,
+        title : 'Signature Boxes'
+    },
+    {
+        id : 4 ,
+        title : 'Sharing'
+    },
+    {
+        id : 5 ,
+        title : 'Snacks & Beverages '
+    },
+    {
+        id : 6,
+        title : 'Midnight'
+    }
+    
 
 ]

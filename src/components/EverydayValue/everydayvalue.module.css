@@ -1,0 +1,10 @@
+.bgRed{
+    background-color: #E4002B;
+    height: 45px;
+}
+.stickyTop{
+    top: 100px!important;
+    background-color: black;
+    padding-bottom: 18px;
+    padding-left: 38px ;
+}
