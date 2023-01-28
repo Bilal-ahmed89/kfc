@@ -90,7 +90,7 @@ export const sectionContentEveryday = [
     {
         id : 1,
         title : 'Everyday Value',
-        content : <Card cardContent={cardContent}/>
+        content : <Card cardContent={cardContent}/>  
     }
 ]
 

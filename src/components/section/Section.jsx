@@ -3,7 +3,7 @@ import styles from './Section.module.css'
 
 
 
-function Section({categories, sectionContent}) {
+function Section({ sectionContent}) {
     return (
         <div className={`container text-white ps-4 mb-5`}>
             <div className={styles.sectionHeading}>

@@ -1,8 +1,7 @@
-import Section from '../section/Section';
-import styles from './everydayvalue.module.css';
-import { sectionContent } from "../data/data";
 
-function EverydayValue({ Tags }) {
+import styles from './everydayvalue.module.css';
+
+function EverydayValue({ Tags, sectionContentEveryday }) {
     return (
         <>
             <div className={`container my-4 sticky-top ${styles.stickyTop}`}>
@@ -22,9 +21,23 @@ function EverydayValue({ Tags }) {
 
                 </div>
             </div>
+          
+           {
+            sectionContentEveryday.map((sectionContentEveryday)=>{
+                return (
+                    <div className={`container text-white ps-4 mb-5`}>
+                    <div className={styles.sectionHeading}>
+                        <h1 className={`fs-3 fw-bold ${styles.jss97}`}>{sectionContentEveryday.title}</h1>
+                    </div>
+                    
+                    <div>{sectionContentEveryday.content}</div>
+        
+                    
+                </div>
+                )
+            })
+           }
            
-
-            <Section  sectionContent={sectionContent} />
             
         </>
     );
